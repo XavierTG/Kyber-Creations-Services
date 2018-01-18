@@ -1,1 +1,1 @@
-worker: node bot.lua
+web: lua bot.lua
