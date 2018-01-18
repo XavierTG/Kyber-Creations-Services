@@ -1,1 +1,1 @@
-web: lua bot.lua
+worker: bot.lua
