@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const PREFIX = "KCS";
-const imagelink = "https://t1.rbxcdn.com/fee1c7e7538c19018d282cc02faa0c80"
+const imagelink = "https://i.imgur.com/b6nm8JN.png"
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.generateInvite(["ADMINISTRATOR"])
