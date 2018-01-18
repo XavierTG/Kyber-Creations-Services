@@ -8,11 +8,7 @@ client.on('ready', () => {
   .then(link => {
     console.log(`Generated bot invite link: ${link}`);
   });
-  let tempguild = client.guilds.find(`name`, `Coruscant Guard`);
-  console.log(`Guild "${tempguild.name}" was found.`);
-  let temprole = tempguild.roles.find('name', 'CAR: 401st Discord Manager');
-  console.log(`Role "${temprole.name}" was found.`);
-  client.user.setGame('with the wonderful Coruscant Guard.');
+  client.user.setGame('with the Kyber Creations server.');
 });
 client.on('message', msg => {
   if (msg.author.bot) return;
