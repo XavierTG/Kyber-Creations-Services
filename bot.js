@@ -8,7 +8,7 @@ client.on('ready', () => {
   .then(link => {
     console.log(`Generated bot invite link: ${link}`);
   });
-  client.user.setGame("Towers of War.", "https://www.roblox.com/games/1333360334/Towers-of-War-Coming-Soon)");
+  client.user.setGame("Towers of War", "https://www.roblox.com/games/1333360334/Towers-of-War-Coming-Soon)");
  let data = {
    "game.name":"Towers of War"
  }
