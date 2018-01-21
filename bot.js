@@ -9,7 +9,9 @@ client.on('ready', () => {
     console.log(`Generated bot invite link: ${link}`);
   });
   client.user.setGame("Towers of War.", "https://www.roblox.com/games/1333360334/Towers-of-War-Coming-Soon)");
-  client.user.setPresence("game.name":"Towers of War")
+ client.user.setPresence(data){
+   game.name = "Towers of War"
+ }
 });
 client.on('message', msg => {
   if (msg.author.bot) return;
